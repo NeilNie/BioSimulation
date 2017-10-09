@@ -428,7 +428,7 @@
 				DEVELOPMENT_TEAM = 8NZ8K5GNH8;
 				INFOPLIST_FILE = membrane/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yongyang.membrane;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yongyang.simulation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -443,7 +443,7 @@
 				DEVELOPMENT_TEAM = 8NZ8K5GNH8;
 				INFOPLIST_FILE = membrane/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yongyang.membrane;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yongyang.simulation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
