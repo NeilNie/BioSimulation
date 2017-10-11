@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0027DED91F8EA65200C7FB2F /* atp-protein.stl in Resources */ = {isa = PBXBuildFile; fileRef = 0027DED81F8EA5D700C7FB2F /* atp-protein.stl */; };
 		002AD1751F8A7181007E662B /* tinker.scn in Resources */ = {isa = PBXBuildFile; fileRef = 002AD1741F8A717E007E662B /* tinker.scn */; };
 		002AD1771F8A71C9007E662B /* body.obj in Resources */ = {isa = PBXBuildFile; fileRef = 002AD1761F8A71C4007E662B /* body.obj */; };
 		007B39221F8A65B2007E05D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007B39211F8A65B2007E05D9 /* AppDelegate.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0027DED81F8EA5D700C7FB2F /* atp-protein.stl */ = {isa = PBXFileReference; lastKnownFileType = file; path = "atp-protein.stl"; sourceTree = "<group>"; };
 		002AD1741F8A717E007E662B /* tinker.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = tinker.scn; sourceTree = "<group>"; };
 		002AD1761F8A71C4007E662B /* body.obj */ = {isa = PBXFileReference; lastKnownFileType = text; path = body.obj; sourceTree = "<group>"; };
 		007B391E1F8A65B2007E05D9 /* membrane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = membrane.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,6 +105,7 @@
 				007B39211F8A65B2007E05D9 /* AppDelegate.swift */,
 				007B39231F8A65B2007E05D9 /* GameViewController.swift */,
 				002AD1761F8A71C4007E662B /* body.obj */,
+				0027DED81F8EA5D700C7FB2F /* atp-protein.stl */,
 				002AD1741F8A717E007E662B /* tinker.scn */,
 				007B39251F8A65B2007E05D9 /* art.scnassets */,
 				007B39291F8A65B2007E05D9 /* Main.storyboard */,
@@ -238,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				007B392B1F8A65B2007E05D9 /* Main.storyboard in Resources */,
+				0027DED91F8EA65200C7FB2F /* atp-protein.stl in Resources */,
 				007B39261F8A65B2007E05D9 /* art.scnassets in Resources */,
 				002AD1751F8A7181007E662B /* tinker.scn in Resources */,
 				002AD1771F8A71C9007E662B /* body.obj in Resources */,
