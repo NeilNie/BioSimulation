@@ -14,8 +14,6 @@
 		007B39241F8A65B2007E05D9 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007B39231F8A65B2007E05D9 /* GameViewController.swift */; };
 		007B39261F8A65B2007E05D9 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 007B39251F8A65B2007E05D9 /* art.scnassets */; };
 		007B392B1F8A65B2007E05D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 007B39291F8A65B2007E05D9 /* Main.storyboard */; };
-		007B39371F8A65B2007E05D9 /* membraneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007B39361F8A65B2007E05D9 /* membraneTests.swift */; };
-		007B39421F8A65B2007E05D9 /* membraneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007B39411F8A65B2007E05D9 /* membraneUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,11 +45,7 @@
 		007B392C1F8A65B2007E05D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		007B392D1F8A65B2007E05D9 /* membrane.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = membrane.entitlements; sourceTree = "<group>"; };
 		007B39321F8A65B2007E05D9 /* membraneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = membraneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		007B39361F8A65B2007E05D9 /* membraneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = membraneTests.swift; sourceTree = "<group>"; };
-		007B39381F8A65B2007E05D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		007B393D1F8A65B2007E05D9 /* membraneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = membraneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		007B39411F8A65B2007E05D9 /* membraneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = membraneUITests.swift; sourceTree = "<group>"; };
-		007B39431F8A65B2007E05D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				007B39201F8A65B2007E05D9 /* membrane */,
-				007B39351F8A65B2007E05D9 /* membraneTests */,
-				007B39401F8A65B2007E05D9 /* membraneUITests */,
 				007B391F1F8A65B2007E05D9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -113,24 +105,6 @@
 				007B392D1F8A65B2007E05D9 /* membrane.entitlements */,
 			);
 			path = membrane;
-			sourceTree = "<group>";
-		};
-		007B39351F8A65B2007E05D9 /* membraneTests */ = {
-			isa = PBXGroup;
-			children = (
-				007B39361F8A65B2007E05D9 /* membraneTests.swift */,
-				007B39381F8A65B2007E05D9 /* Info.plist */,
-			);
-			path = membraneTests;
-			sourceTree = "<group>";
-		};
-		007B39401F8A65B2007E05D9 /* membraneUITests */ = {
-			isa = PBXGroup;
-			children = (
-				007B39411F8A65B2007E05D9 /* membraneUITests.swift */,
-				007B39431F8A65B2007E05D9 /* Info.plist */,
-			);
-			path = membraneUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,7 +252,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				007B39371F8A65B2007E05D9 /* membraneTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +259,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				007B39421F8A65B2007E05D9 /* membraneUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
